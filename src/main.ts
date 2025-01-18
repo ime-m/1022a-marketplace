@@ -3,6 +3,8 @@ import mysql from 'mysql2/promise'
 import cors from 'cors'
 import BancoMysql from './db/banco-mysql'
 
+
+
 const app = express()
 app.use(express.json())
 app.use(cors())
